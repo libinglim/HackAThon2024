@@ -8,6 +8,11 @@ body
     background-color: aqua*/
     font-family: Arial, sans-serif;
 }
+.main-paragraph button:hover
+{
+    background-color: #ffffff;
+    color: black;
+}
 .main-paragraph
 {
     font-size:small,
@@ -140,4 +145,5 @@ nav a:hover {
     margin: 0;
     margin-top: 0;
     margin-bottom: 0;
+    color : #000000,
 }

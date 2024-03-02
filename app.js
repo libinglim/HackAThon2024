@@ -1,9 +1,10 @@
 
 function handleClick(evt) {
     day = evt.currentTarget.clicked_id;
+    document.getElementById("day-text").innerHTML =  "Day "+day;
 }
 
-for(let i = 1;i<31;i++)
+for(let i = 1;i<32;i++)
 {
     var button = document.getElementById("Day"+i);
     button.addEventListener('click', handleClick);
