@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
 body
 {
-    font-family: 'Oxygen Mono', monospace;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
 .main-paragraph
 {
     font-size:small,
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
 }
