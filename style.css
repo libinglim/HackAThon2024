@@ -114,3 +114,7 @@ nav a:hover {
     margin: 8px 0;
     cursor: move;
 }
+.draggable-item
+{
+    color : #ddd;
+}
