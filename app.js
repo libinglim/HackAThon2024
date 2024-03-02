@@ -62,6 +62,6 @@ function load()
     document.getElementById("text-box").value = localStorage.getItem(month_index+"-"+day);
     if (localStorage.getItem(month_index+"-"+day) == null)
     {
-        document.getElementById("text-box").placeholder = "No event data entered for "+ months[month_index] + " "+day;
+        document.getElementById("text-box").placeholder = "No event data entered for "+ months[month_index] + " "+day+", Enter and load data by clicking through the calendar!";
     }
 }
