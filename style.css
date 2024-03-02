@@ -15,7 +15,7 @@ body
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #0d92b7;
 }
 
 .main-paragraph table {
@@ -42,6 +42,20 @@ h1 {
 .main-paragraph tbody{
     background-color: #C4DFE6;
     border: 2px solid #62989E;
+}
+
+.styled-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
 }
 .main-paragraph button{
     width: 100%;
