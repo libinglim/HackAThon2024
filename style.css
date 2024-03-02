@@ -4,8 +4,10 @@ body
     background-image: url('https://umaine.edu/news/wp-content/uploads/sites/3/2021/04/Forest-news-feature.jpg');
     /*background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     background-color: aqua*/
+    background-size:100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
 }
 .main-paragraph
