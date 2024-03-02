@@ -98,12 +98,16 @@ nav a:hover {
 }
 .container {
     display: flex;
+    fill: white;
+    color: white;
     justify-content: space-between;
 }
 
 .left-side, .right-side {
     width: 45%;
     min-height: 200px;
+    color: black;
+    background-color: white;
     border: 1px solid #ddd;
     padding: 10px;
 }
@@ -111,6 +115,14 @@ nav a:hover {
 .draggable-item {
     border: 1px solid #999;
     padding: 8px;
+    color: black;
     margin: 8px 0;
+<<<<<<< HEAD
     cursor: move;
+}
+.draggable-item
+{
+    color : #ddd;
+=======
+>>>>>>> e4d922267700d81a0795ea0fe5a13d6bc4c61895
 }
