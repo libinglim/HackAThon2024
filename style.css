@@ -19,7 +19,21 @@ body
 {
     font-size:small,
 }
-
+.main-paragraph-info
+{
+    margin: auto;
+    text-align: center;
+    color : #ffffff;
+    font-size:small;
+    background-color : #ffffff21;
+    width : 50%;
+    height : 70%;
+}
+.main-paragraph-info img
+{
+    width: 50%;
+    height: 50%;
+}
 h1 {
     text-align: center;
     color: #0d92b7;
