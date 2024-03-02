@@ -8,19 +8,19 @@ body
 {
     font-size:small,
 }
-table {
+.calendar-div table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
 }
 
-th, td {
+.calendar-div th, .calendar-div td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
 }
 
-th {
+.calendar-div th {
     background-color: #4CAF50;
     color: white;
 }
