@@ -95,4 +95,21 @@ nav a:hover {
 {
     width: 50%;
     height : 100%;
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side, .right-side {
+    width: 45%;
+    min-height: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.draggable-item {
+    border: 1px solid #999;
+    padding: 8px;
+    margin: 8px 0;
+    cursor: move;
 }
