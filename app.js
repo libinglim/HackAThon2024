@@ -2,6 +2,7 @@
 function handleClick(evt) {
     day = evt.currentTarget.clicked_id;
     document.getElementById("day-text").innerHTML =  "Day "+day;
+    load();
 }
 
 for(let i = 1;i<32;i++)
@@ -58,5 +59,5 @@ function save()
 load();
 function load()
 {
-    document.getElementById("text-box").innerHTML = localStorage.getItem(month_index+"-"+day);
+    document.getElementById("text-box").value = localStorage.getItem(month_index+"-"+day);
 }
