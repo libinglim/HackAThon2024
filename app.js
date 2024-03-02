@@ -2,8 +2,8 @@ function handleClick() {
     alert('1');
 }
 
-
-var button = document.getElementById('myButton');
-
-
-button.addEventListener('click', handleClick);
+for(let i = 1;i<25;i++)
+{
+    var button = document.getElementById("Day"+i);
+    button.addEventListener('click', handleClick);
+}
