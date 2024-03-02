@@ -5,5 +5,26 @@ body
 }
 .main-paragraph
 {
-    font-size:large,
+    font-size:small,
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 2px solid #62989E;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #66A5AD;
+    color: white;
+    border: 2px solid #62989E;
+}
+tbody{
+    background-color: #C4DFE6;
+    border: 2px solid #62989E;
 }
