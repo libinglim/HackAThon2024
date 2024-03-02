@@ -1,12 +1,16 @@
-function handleClick() {
-    alert('');
+
+function handleClick(evt) {
+    day = evt.currentTarget.clicked_id;
 }
 
 for(let i = 1;i<31;i++)
 {
     var button = document.getElementById("Day"+i);
     button.addEventListener('click', handleClick);
+    button.clicked_id = i;
 }
+
+var day = 1;
 
 const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 var month_index = 2;
@@ -43,4 +47,15 @@ function incrementMonth()
         month_index = 0;
     }
     month_text.innerHTML = months[month_index];
+}
+
+document.getElementById("save").addEventListener('click',save);
+function save()
+{
+    localStorage.setItem(month_index+"-"+day,document.getElementById("text-box").value);
+}
+load();
+function load()
+{
+    document.getElementById("text-box").innerHTML = localStorage.getItem(month_index+"-"+day);
 }

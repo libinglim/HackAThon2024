@@ -134,3 +134,10 @@ nav a:hover {
 {
     color : #ddd;
 }
+.day-display
+{
+    font-size: small;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -7,12 +7,14 @@
             <a href="events.html">Events</a>
             <a href="info.html">More Info</a>
         </nav>
-            <div class = "month-changer">
-                <button id = "MonthSub">←</button>
-                <h1 id = "MonthText">March</h1>
-                <button id = "MonthAdd">→</button>
-            </div>
-        <p></p>
+        <div class = "month-changer">
+            <button id = "MonthSub">←</button>
+            <h1 id = "MonthText">March</h1>
+            <button id = "MonthAdd">→</button>
+        </div>
+        <div class = "day-display">
+            <h1 id = "day-text">Day 1</h>
+        </div>
         
         <link rel="stylesheet" href="style.css">
         <div class = "main-paragraph">
@@ -80,13 +82,15 @@
             
 
         </div>
-        <script src="app.js"></script>
+        
 
         
         </div>
         <div class = "event-details">
-            <textarea id="thoughtbox" placeholder= "Enter your event details" name="thoughtbox" rows="10" cols="50"></textarea>
+            <textarea id="text-box" placeholder= "Enter your event details" name="thoughtbox" rows="10" cols="50"></textarea>
+            <p></p>
+            <button id = "save">Save Event</button>
         </div>
-
+        <script src="app.js"></script>
     </body>
 </html>
