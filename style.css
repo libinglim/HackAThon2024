@@ -2,7 +2,7 @@
 body
 {
     font-family: Arial, sans-serif;
-    background-color: #e9e9f0;
+    background-color: #F1F1F2;
 }
 .main-paragraph
 {
@@ -15,19 +15,19 @@ table {
 }
 
 th, td {
-    border: 2px solid #62989E;
+    border: 2px solid #39B5CD;
     padding: 10px;
     text-align: center;
 }
 
 th {
-    background-color: #66A5AD;
+    background-color: #39B5CD;
     color: white;
-    border: 2px solid #62989E;
+    border: 2px solid #39B5CD;
 }
 tbody{
-    background-color: #C4DFE6;
-    border: 2px solid #62989E;
+    background-color: #B1D6E2;
+    border: 2px solid #39B5CD;
 }
 
 nav {
