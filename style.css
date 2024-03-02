@@ -95,6 +95,7 @@ nav a:hover {
 {
     width: 50%;
     height : 100%;
+}
 .container {
     display: flex;
     justify-content: space-between;
