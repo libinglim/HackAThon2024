@@ -188,7 +188,7 @@ nav a:hover {
     justify-content: space-between;
 }
 
-.left-side {
+.left-side , #event{
     margin:auto;
     width: 45%;
     color: black;
