@@ -69,7 +69,43 @@ h1 {
     width: 100%;
     height: 100%;
     margin : 0;
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: .4s;
+}
+.main-paragraph button:hover{
+    background-color: white;
+    color: black;
+}
+.event-description button{
+    width: 10%;
+    height: 100%;
+    margin : 0;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: .4s;
+}
+.event-description button:hover{
+    width: 12.5%;
+    height: 100%;
+    margin : 0;
+    background-color: #48964b;
     border: none;
     color: white;
     text-align: center;
