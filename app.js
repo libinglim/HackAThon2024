@@ -54,14 +54,21 @@ function incrementMonth()
 document.getElementById("save").addEventListener('click',save);
 function save()
 {
-    localStorage.setItem(month_index+"-"+day,document.getElementById("text-box").value);
+    localStorage.setItem(month_index+"-"+day+"name",document.getElementById("text-box-name").value);
+    localStorage.setItem(month_index+"-"+day+"description",document.getElementById("text-box-description").value);
+    localStorage.setItem(month_index+"-"+day+"links",document.getElementById("text-box-links").value);
 }
 load();
 function load()
 {
-    document.getElementById("text-box").value = localStorage.getItem(month_index+"-"+day);
+    
     if (localStorage.getItem(month_index+"-"+day) == null)
     {
-        document.getElementById("text-box").placeholder = "No event data entered for "+ months[month_index] + " "+day+", Enter and load data by clicking through the calendar!";
+        document.getElementById("text-box-name").placeholder = "Enter event name for "+ months[month_index] + " "+day+", Enter and load data by clicking through the calendar!";
+        document.getElementById("text-box-description").placeholder = "Enter event description for "+ months[month_index] + " "+day+", Enter and load data by clicking through the calendar!";
+        document.getElementById("text-box-links").placeholder = "Enter event links for "+ months[month_index] + " "+day+", Enter and load data by clicking through the calendar!";
     }
+    document.getElementById("text-box-name").value = localStorage.getItem(month_index+"-"+day+"name");
+    document.getElementById("text-box-description").value = localStorage.getItem(month_index+"-"+day+"description");
+    document.getElementById("text-box-links").value = localStorage.getItem(month_index+"-"+day+"links");
 }
