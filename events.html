@@ -11,10 +11,10 @@
             <a href="events.html">Events</a>
             <a href="info.html">More Info</a>
         </nav>
-        <h1>EVENTS PAGE</h1>
+        <h1>Task Organizer</h1>
         <p></p>
         <link rel="stylesheet" href="style.css">
-        <div class = "main-paragraph"> 
+        <div class = "main-paragraph-events"> 
             <div class="container">
                 <!-- Left side (draggable items) -->
                 <div class="left-side" id="left-container">
@@ -29,31 +29,25 @@
         
             <script>
                 function drag(ev) {
-                    // Set the data to be transferred during the drag
                     ev.dataTransfer.setData("text", ev.target.innerText);
                 }
-        
+
                 function allowDrop(ev) {
                     ev.preventDefault();
                 }
-        
+
                 function drop(ev) {
                     ev.preventDefault();
                     var data = ev.dataTransfer.getData("text");
-        
+
                     var newItem = document.createElement("div");
 
                     newItem.className = "draggable-item";
-                    newItem.innerText = data;
+                    newItem.innerHTML = document.getElementById("event").value;
                     document.getElementById("right-container").appendChild(newItem);
                     
                     var existingItems = rightContainer.getElementsByClassName("draggable-item");
                     
-                    for (var i = 0; i < existingItems.length; i++) {
-                        if (existingItems[i].innerText === data) {
-                        return;
-                        }
-                    }
                 }
             </script>
 

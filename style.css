@@ -8,7 +8,7 @@ body
     background-size:100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family: Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 .main-paragraph button:hover
 {
@@ -147,8 +147,8 @@ nav a:hover {
 .right-container {
     margin : auto;
     display: flex;
-    fill: white;
-    color: white;
+    fill: rgba(255, 255, 255, 0.283);
+    color: rgba(255, 255, 255, 0.202);
     justify-content: space-between;
 }
 
@@ -156,7 +156,7 @@ nav a:hover {
     margin:auto;
     width: 45%;
     color: black;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.165);
     border: 1px solid #ddd;
     padding: 10px;
 }
@@ -164,7 +164,7 @@ nav a:hover {
     margin:auto;
     width: 45%;
     color: black;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.187);
     border: 1px solid #ddd;
     padding: 10px;
 }
